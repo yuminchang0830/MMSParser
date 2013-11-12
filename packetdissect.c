@@ -1,5 +1,6 @@
 #include "packetdissect.h"
 
+/* this file is for pasing packet */
 
 void dump_packet(FILE *fs, u_char *tcpdata, u_int32_t len)
 {
