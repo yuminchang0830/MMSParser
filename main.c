@@ -8,7 +8,7 @@
 #include "packetdissect.h"
 
 #define MAX_NUM_PORT_IN_FILE 100
-#define MAX_TRANSMIT_TIME 300
+#define MAX_TRANSMIT_TIME 300 /* MMS timeout value */
 #define TIME_SCALE 10  /* 10 sec a slot*/
 #define MAX_TIME_RANGE (MAX_TRANSMIT_TIME/TIME_SCALE) /* 1 slot per 10 sec */
 
